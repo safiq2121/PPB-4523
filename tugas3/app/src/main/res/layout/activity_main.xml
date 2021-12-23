@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:text="KALKULATOR"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:background="@color/teal_200"
+        android:layout_height="wrap_content"/>
+    
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="150dp"
+        android:text="angka 1 :"
+        android:textSize="30dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/angka1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="150dp"
+            android:text="angka 2 :"
+            android:textSize="30dp"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/angka2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/tblhitung"
+        android:layout_width="wrap_content"
+        android:text="HITUNG"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/hasilhitung"
+            android:layout_width="150dp"
+            android:text="HASIL :"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

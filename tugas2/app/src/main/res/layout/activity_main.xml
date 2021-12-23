@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="@color/purple_200"
+        android:text="Hello Toast!"
+        />
+    <Button
+        android:id="@+id/tomboltoas"
+        android:layout_width="match_parent"
+        android:text="TOAST "
+        android:textSize="30dp"
+        android:onClick="toastklick"
+        android:background="@color/purple_700"
+        android:textColor="@color/design_default_color_on_primary"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/kounter"
+        android:layout_width="match_parent"
+        android:text="0"
+        android:textSize="190dp"
+        android:textColor="@color/blue"
+        android:background="@color/teal_200"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/tombolcount"
+        android:layout_width="match_parent"
+        android:text="Count"
+        android:textSize="30dp"
+        android:onClick="tblcounter"
+        android:background="@color/purple_700"
+        android:textColor="@color/design_default_color_on_primary"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
